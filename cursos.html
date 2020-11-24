@@ -24,7 +24,9 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -37,28 +39,41 @@
 </head>
 
 <body>
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center">
-
-    <a class="" href="index.html"><img src="assets/img/logo.png" style="height: 100px; width: 100px;" alt="" /></a>
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-    <nav class="nav-menu d-none d-lg-block">
-      <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li class="active"><a href="about.html">Page1</a></li>
-        <li class="active"><a href="courses.html">Page2</a></li>
-     
-      </ul>
-    </nav><!-- .nav-menu -->
-<div class="derecha ml-lg-auto">
-    <a href="iniciar-sesion.html" class="get-started-btn">Iniciar Sesion</a>
-    <a href="registrase.html" class="get-started-btn">Crear Cuenta</a>
-  </div>
-  </div>
-</header><!-- End Header -->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="" href="index.html"><img src="assets/img/logo.png" style="height: 50px; width: 50px;" alt="" /></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="separar-logo"></div>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="derecha ml-lg-auto">
+          <a href="iniciar-sesion.html" class="get-started-btn">Iniciar Sesion</a>
+          <a href="registrase.html" class="get-started-btn">Crear Cuenta</a>
+        </div>
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav><!-- End Header/Navbar -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -76,7 +91,7 @@
 <main id="main" data-aos="fade-in">
 
 
-  <div class="separar3"></div>
+  <div class="separar5"></div>
 
 
 
@@ -95,32 +110,31 @@
       <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="course-item">
+          <a href="ficha-curso.html">
+          <div class="course-item zoom">
             <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
             <div class="course-content">
               <div class="d-flex justify-content-between align-items-center mb-3">
                 <h4>Web Development</h4>
                 <p class="price">Gratis</p>
               </div>
-              <h3><a href="ficha-curso.html">Website Design</a></h3>
+              <h3>Website Design</h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div class="trainer d-flex justify-content-between align-items-center">
                 <div class="trainer-profile d-flex align-items-center">
                   <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
                   <span>Antonio</span>
                 </div>
-                <div class="trainer-rank d-flex align-items-center">
-                  <i class="bx bx-user"></i>&nbsp;50
-                  &nbsp;&nbsp;
-                  <i class="bx bx-heart"></i>&nbsp;65
-                </div>
+             
               </div>
             </div>
           </div>
+        </a>
         </div> <!-- End Course Item-->
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="course-item">
+          <a href="ficha-curso.html">
+          <div class="course-item zoom">
             <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
             <div class="course-content">
               <div class="d-flex justify-content-between align-items-center mb-3">
@@ -128,25 +142,23 @@
                 <p class="price">$250</p>
               </div>
 
-              <h3><a href="ficha-curso.html">Search Engine Optimization</a></h3>
+              <h3>Search Engine Optimization</h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div class="trainer d-flex justify-content-between align-items-center">
                 <div class="trainer-profile d-flex align-items-center">
                   <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
                   <span>Lana</span>
                 </div>
-                <div class="trainer-rank d-flex align-items-center">
-                  <i class="bx bx-user"></i>&nbsp;35
-                  &nbsp;&nbsp;
-                  <i class="bx bx-heart"></i>&nbsp;42
-                </div>
+                
               </div>
             </div>
           </div>
+        </a>
         </div> <!-- End Course Item-->
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="course-item">
+          <a href="ficha-curso.html">
+          <div class="course-item zoom">
             <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
             <div class="course-content">
               <div class="d-flex justify-content-between align-items-center mb-3">
@@ -154,25 +166,34 @@
                 <p class="price">$180</p>
               </div>
 
-              <h3><a href="ficha-curso.html">Copywriting</a></h3>
+              <h3>Copywriting</h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div class="trainer d-flex justify-content-between align-items-center">
                 <div class="trainer-profile d-flex align-items-center">
                   <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
                   <span>Brandon</span>
                 </div>
-                <div class="trainer-rank d-flex align-items-center">
-                  <i class="bx bx-user"></i>&nbsp;20
-                  &nbsp;&nbsp;
-                  <i class="bx bx-heart"></i>&nbsp;85
-                </div>
               </div>
             </div>
           </div>
+        </a>
         </div> <!-- End Course Item-->
+      </div>
+    </div>
+  </section>
+
+
+        <div class="separar7"></div>
+
+        <section id="courses" class="courses">
+          <div class="container" data-aos="fade-up">
+      
+            <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="course-item">
+          <a href="ficha-curso.html">
+          <div class="course-item zoom">
             <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
             <div class="course-content">
               <div class="d-flex justify-content-between align-items-center mb-3">
@@ -180,25 +201,23 @@
                 <p class="price">Gratis</p>
               </div>
 
-              <h3><a href="ficha-curso.html">Website Design</a></h3>
+              <h3>Website Design</h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div class="trainer d-flex justify-content-between align-items-center">
                 <div class="trainer-profile d-flex align-items-center">
                   <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
                   <span>Antonio</span>
                 </div>
-                <div class="trainer-rank d-flex align-items-center">
-                  <i class="bx bx-user"></i>&nbsp;50
-                  &nbsp;&nbsp;
-                  <i class="bx bx-heart"></i>&nbsp;65
-                </div>
+               
               </div>
             </div>
           </div>
+        </a>
         </div> <!-- End Course Item-->
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="course-item">
+          <a href="ficha-curso.html">
+          <div class="course-item zoom">
             <img src="assets/img/course-2.jpg" class="img-fluid" alt="...">
             <div class="course-content">
               <div class="d-flex justify-content-between align-items-center mb-3">
@@ -206,25 +225,23 @@
                 <p class="price">$250</p>
               </div>
 
-              <h3><a href="ficha-curso.html">Search Engine Optimization</a></h3>
+              <h3>Search Engine Optimization</h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div class="trainer d-flex justify-content-between align-items-center">
                 <div class="trainer-profile d-flex align-items-center">
                   <img src="assets/img/trainers/trainer-2.jpg" class="img-fluid" alt="">
                   <span>Lana</span>
                 </div>
-                <div class="trainer-rank d-flex align-items-center">
-                  <i class="bx bx-user"></i>&nbsp;35
-                  &nbsp;&nbsp;
-                  <i class="bx bx-heart"></i>&nbsp;42
-                </div>
+              
               </div>
             </div>
           </div>
+        </a>
         </div> <!-- End Course Item-->
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="course-item">
+          <a href="ficha-curso.html">
+          <div class="course-item zoom">
             <img src="assets/img/course-3.jpg" class="img-fluid" alt="...">
             <div class="course-content">
               <div class="d-flex justify-content-between align-items-center mb-3">
@@ -232,21 +249,18 @@
                 <p class="price">$180</p>
               </div>
 
-              <h3><a href="ficha-curso.html">Copywriting</a></h3>
+              <h3>Copywriting</h3>
               <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
               <div class="trainer d-flex justify-content-between align-items-center">
                 <div class="trainer-profile d-flex align-items-center">
                   <img src="assets/img/trainers/trainer-3.jpg" class="img-fluid" alt="">
                   <span>Brandon</span>
                 </div>
-                <div class="trainer-rank d-flex align-items-center">
-                  <i class="bx bx-user"></i>&nbsp;20
-                  &nbsp;&nbsp;
-                  <i class="bx bx-heart"></i>&nbsp;85
-                </div>
+               
               </div>
             </div>
           </div>
+        </a>
         </div> <!-- End Course Item-->
 
 
@@ -259,78 +273,62 @@
 </main><!-- End #main -->
 
 <!-- ======= Footer ======= -->
-<footer id="footer">
-
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 footer-contact">
-          <a class="" href="index.html"><img src="assets/img/logo1.png" style="height: 250px; width: 250px;" alt="" /></a>
-       <div class="separar"></div>
-          <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
-          </p>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+<footer class="footer-bs color-fondo">
+  <div class="row">
+    <div class="col-md-3 footer-brand animated fadeInLeft">
+      <a class="navbar-brand logo" href="iniciar-sesion.html"><img src="assets/img/logo1.png" style="height: 250px; width: 250px;" alt="" /></a>
+          <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
+          <p>© 2020 Hogar Presente, All rights reserved</p>
+      </div>
+    <div class="col-md-4 footer-nav animated fadeInUp color-blanco">
+      <div class="separar6"></div>
+        <h4>Menu —</h4>
+        <div class="col-md-6">
+              <ul class="pages">
+                  <li><a href="#">Travel</a></li>
+                  <li><a href="#">Nature</a></li>
+                  <li><a href="#">Explores</a></li>
+                  <li><a href="#">Science</a></li>
+                  <li><a href="#">Advice</a></li>
+              </ul>
+          </div>
+        <div class="col-md-6">
+              <ul class="list">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#">Terms & Condition</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
+      </div>
+    <div class="col-md-2 footer-social animated fadeInDown color-blanco">
+      <div class="separar6"></div>
+        <h4>Follow Us</h4>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">RSS</a></li>
           </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-6 footer-newsletter">
-          <h4>Join Our Newsletter</h4>
-          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          <form action="" method="post">
-            <input type="email" name="email"><input type="submit" value="Subscribe">
-          </form>
-        </div>
-
       </div>
-    </div>
+    <div class="col-md-3 footer-ns animated fadeInRight color-blanco">
+      <div class="separar6"></div>
+        <h4>Newsletter</h4>
+          <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+          
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                </span>
+              </div>
+            
+      </div>
   </div>
-
-  <div class="container d-md-flex py-4">
-
-    <div class="mr-md-auto text-center text-md-left">
-      <div class="copyright">
-        Copyright <strong><span>Hogar Presente</span></strong>.
-      </div>
-      <div class="credits">
-      </div>
-    </div>
-    <div class="social-links text-center text-md-right pt-3 pt-md-0">
-      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-    </div>
+  <div class="footer-copyright text-center py-3 color-blanco">© 2020 Copyright:
+   <a> Hogar Presente</a>
   </div>
-</footer><!-- End Footer -->
-
-<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+</footer>
 
 
  <!-- Vendor JS Files -->
