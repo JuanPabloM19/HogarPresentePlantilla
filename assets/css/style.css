@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif !important;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -157,12 +158,38 @@ float: right !important;
 }
 
 .get-started-btn2:hover {
-  background: #1F6116;
+  background: #D99058;
   color: #fff;
 }
 
 @media (max-width: 768px) {
   .get-started-btn2 {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+
+/* Get Startet Button */
+.get-started-btn3 { 
+  text-align: center !important;
+  align-items: center !important;
+  background: #D99058;;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px; 
+}
+
+.get-started-btn3:hover {
+  background: #308446;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .get-started-btn3 {
     margin: 0 48px 0 0;
     padding: 6px 18px;
   }
@@ -331,6 +358,49 @@ section {
   font-size: 14px;
   margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumbs2 {
+  margin-top: 20px;
+  text-align: center;
+  padding: 30px 0;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs2 {
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center !important;
+    align-items: center !important;
+  }
+}
+
+.breadcrumbs2 h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.breadcrumbs2 p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # About
@@ -524,7 +594,15 @@ section {
 .courses .course-content h3 {
   font-weight: 700;
   font-size: 20px;
+  color:  #D99058;
 }
+
+.courses .course-content h3:hover {
+  font-weight: 700;
+  font-size: 20px;
+  color:  #308446;
+}
+
 
 .courses .course-content h3 a {
   color: #37423b;
@@ -963,7 +1041,7 @@ section {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #777777;
+  color: #5e5e5e;
   background: #f8f8f8;
 }
 
@@ -1378,7 +1456,9 @@ section {
   margin-top: 20px !important;
 }
 
-
+.separar10 {
+  margin-top: 20px !important;
+}
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
@@ -1651,48 +1731,96 @@ iframe{
   }
   
 
-  @import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates);
 
-  * {
-      margin:0;
-      padding:0;
-      font-family: 'Montserrat', sans-serif !important;
-  }
-  
-
-  
-  .field {
-    display:flex;
-    position: realtive;
-    margin:5em auto;
-    width:70%;
-    flex-direction:row;
-    box-shadow:
-     1px 1px 0 #D99058,
-     2px 2px 0 #D99058,
-     3px 3px 0 #D99058,
-     4px 4px 0 #D99058,
-     5px 5px 0 #D99058,
-     6px 6px 0 #D99058,
-     7px 7px 0 #D99058,
-    ;
-  }
-  
-  .field>input[type=text],
-  .field>button {
-    display:block;
+  .modalmask {
+    position: fixed;
     font-family: 'Montserrat', sans-serif !important;
-  }
-  
-  .field>input[type=text] {
-    flex:1;
-    padding:0.6em;
-    border:0.2em solid #D99058;
-  }
-  
-  .field>button {
-    padding:0.6em 0.8em;
-    background-color:#D99058;
-    color:white;
-    border:none;
-  }
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+
+.modalbox{
+  width: 500px;
+  position: relative;
+  padding: 5px 20px 13px 20px;
+  background: #fff;
+  border-radius:3px;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+   height: 200px !important;
+}
+
+
+.movedown {
+  margin: 0 auto;
+}
+
+.modalmask:target .movedown{       
+  margin:10% auto;
+}
+
+
+
+.close {
+  background: #D99058;
+  color: white;
+  line-height: 25px;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  top: 1px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius:3px;
+
+}
+
+.close:hover {
+  background: #308446;
+  color:white;
+}
+
+.boton{
+  text-align: center !important;
+margin: 10px !important;
+  padding: 5px !important;
+      }
+
+
+
+      @media (max-width: 1000px) {
+        .modalmask{
+          position:fixed;
+          height:100%;
+          width:100%;
+          }
+          .modalbox{
+            position:relative;
+            height:100%;  
+            width:100%;
+          }
+          .close{
+            position:absolute;
+          }
+
+          .boton{
+            margin-top: -5px !important;
+            position:relative
+          }
+          }      
