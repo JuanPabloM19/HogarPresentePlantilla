@@ -689,6 +689,119 @@ section {
   font-size: 18px;
   color: #657a6d;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Courses Black Background
+--------------------------------------------------------------*/
+.courses2 .course-item2 {
+  border-radius: 5px;
+  border: 1px solid #eef0ef;
+}
+
+.courses2 .course-content2 {
+  padding: 15px;
+}
+
+.courses2 .course-content2 h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color:  #37423b;
+}
+
+.courses2 .course-content2 h3:hover {
+  font-weight: 700;
+  font-size: 20px;
+  color:  #37423b;
+}
+
+
+.courses2 .course-content2 h3 a {
+  color: #37423b;
+  transition: 0.3s;
+}
+
+.courses2.course-content2 h3 a:hover {
+  color:  #37423b
+}
+
+.courses2 .course-content2 p {
+  font-size: 14px;
+  color: #37423b;
+}
+
+.courses2 .course-content2 h4 {
+  font-size: 14px;
+  background:  #37423b;
+  padding: 7px 14px;
+  color: #fff;
+  margin: 0;
+}
+
+.courses2 .course-content2 .price2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #37423b;
+}
+
+.courses2 .trainer2 {
+  padding-top: 15px;
+  border-top: 1px solid #eef0ef;
+}
+
+.courses2 .trainer2 .trainer-profile2 img {
+  max-width: 50px;
+  border-radius: 50px;
+}
+
+.courses2 .trainer2 .trainer-profile2 span {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #37423b;
+}
+
+.courses2 .trainer2 .trainer-rank2 {
+  font-size: 18px;
+  color: #37423b;
+}
+
+
+
+.oscurecer{
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    )
+    -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+
+
+
+.separar-foto{
+margin-left: 130px !important;
+}
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Trainers
 --------------------------------------------------------------*/
