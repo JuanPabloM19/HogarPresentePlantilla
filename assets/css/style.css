@@ -402,6 +402,41 @@ section {
 
 
 
+
+
+
+
+
+
+
+.breadcrumbs3 {
+  margin-top: 73px;
+  text-align: center;
+  padding: 30px 0;
+  color: #308446;
+}
+
+@media (max-width: 992px) {
+  .breadcrumbs3 {
+    margin-top: 50px;
+    padding: 30px 0;
+    text-align: center !important;
+    align-items: center !important;
+  }
+}
+
+.breadcrumbs3 h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.breadcrumbs3 p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1433,6 +1468,9 @@ section {
   margin-bottom: -65px !important;
 }
 
+.separar11 {
+  margin-bottom: -25px !important;
+}
 
 .separar2 {
   margin-bottom: 100px !important;
@@ -1826,7 +1864,20 @@ margin: 10px !important;
           }      
 
 
-#bienvenido{
+#bienvenido2{
   font-family: 'Amatic SC', cursive !important;
-  font-size: 50px !important;
+  font-size: 70px !important;
 }
+
+#seleccionar-archivos{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin: auto;
+  height: 100px;
+  width: 200px;
+
+}
+
