@@ -1824,3 +1824,9 @@ margin: 10px !important;
             position:relative
           }
           }      
+
+
+#bienvenido{
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 50px !important;
+}
