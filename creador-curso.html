@@ -80,90 +80,52 @@
   </div>
 </nav><!-- End Header/Navbar -->
 
-<div class="separar12"></div>
-  <!-- ======= Breadcrumbs ======= -->
-  <div class="breadcrumbs3">
-    <div class="container">
-      <h2>1) Agregar Foto</h2>
-      <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
-    </div>
-  </div><!-- End Breadcrumbs -->
-
-  <div class="separar5"></div>
-  
-    <input id="seleccionar-archivos" type="file" name="adjunto" accept=".jpg,.png"/>
-  <div class="separar12"></div>
-
-
+<div class="separar13"></div>
+<form class="border border-light p-5">
 
   <div class="breadcrumbs3">
     <div class="container">
-      <h2>2) Agregar Etiqueta y Precio</h2>
-      <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+      <h2>Subiendo taller a la plataforma. Aguerde por favor.....</h2>
     </div>
   </div><!-- End Breadcrumbs -->
-  <div class="separar14"></div>
-  <section id="courses" class="courses">
-    <div class="container" data-aos="fade-up">
+    
 
-      <div class="row" data-aos="zoom-in" data-aos-delay="100">
 
-        <div class="col-lg-9  align-items-center">
-            <div class="course-content">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <h4>Cuidadora de Niños</h4><input type="text" name="">
-                <p class="price">Valor del curso</p><input type="text" name="">
-              </div>
-              </div>
-        </div> <!-- End Course Item-->
+  <div class="input-group mb-4">
+      <div class="input-group-prepend">
+          <span class="input-group-text">Cargar</span>
       </div>
-    </div>
-  </section>
-  <div class="separar14"></div>
-  <div class="breadcrumbs3">
-    <div class="container">
-      <h2>3) Agregar Titulo del Curso con breve descripcion</h2>
-      <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
-    </div>
-  </div><!-- End Breadcrumbs -->
-  <div class="separar14"></div>
-  <section id="courses" class="courses">
-    <div class="container" data-aos="fade-up">
-      <div class="row" data-aos="zoom-in" data-aos-delay="100">
-  <div class="col-lg-9  align-items-center">
-      <div class="course-content">
-        <h3>Copywriting</h3>
-        <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
-        <input type="text" size="30" maxlength="50" value="Titulo" name="nombre">
-    </div>
-    <div class="course-content">
-    <input type="text" size="105" minlength="80" maxlength="105" value="Descripción" name="nombre">  
-    </div>  
-</div>
+      <div class="custom-file">
+          <input type="file" class="custom-file-input" id="fileInput" aria-describedby="fileInput">
+          <label class="custom-file-label" for="fileInput">Archivo</label>
       </div>
-    </div>
-  </section>
-
-
-  <div class="breadcrumbs2">
-    <div class="container">
-      <a href="#modal1" class="get-started-btn3" >Guardar Taller</a>
-    </div>
-</div>
-
-
-<div id="modal1" class="modalmask">
-    <div class="modalbox movedown">
-        <a href="#close" title="Close" class="close">X</a>
-        <h2>¿Seguro que crearas este taller?</h2>
-        <hr>
-        <div class="separar10"></div>
-        <a  href="talleres.html"> <button  type="button" class="btn btn-success boton">Sí, publicar taller</button></a>
-        <a  href="creador-curso.html"> <button type="button" class=" btn btn-danger boton">No, volver a talleres</button></a>
-    </div>
   </div>
 
 
+    
+
+  <label for="textInput">Etiqueta del curso</label>
+  <input type="text" id="textInput" class="form-control mb-4">
+
+
+
+  
+  <label for="textInput">Precio</label>
+  <input type="number" for="inputEmail" class="form-control validate" min="0" max="100000" required></input>
+
+
+    
+  <label for="textInput">Titulo del taller></label>
+  <input type="text" id="textInput" class="form-control mb-4">
+
+
+
+    
+  <label for="textarea">Breve descripcion</label>
+  <textarea id="textarea" class="form-control mb-4"></textarea>
+
+  <button class="btn btn-info btn-block" type="submit">Guardar</button>
+</form>
 
 
 <div class="separar2"></div>
