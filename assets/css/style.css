@@ -133,7 +133,7 @@ float: right !important;
 }
 
 .get-started-btn:hover {
-  background: #1F6116;
+  background: #D99058 ;
   color: #fff;
 }
 
@@ -776,8 +776,6 @@ section {
   color: #37423b;
 }
 
-
-
 .oscurecer{
   background-image: 
     linear-gradient(
@@ -788,12 +786,109 @@ section {
 filter: grayscale(100%);
 }
 
-
-
-
 .separar-foto{
 margin-left: 130px !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Courses Modifiqued
+--------------------------------------------------------------*/
+.courses3 .course-item3 {
+  border-radius: 5px;
+  border: 1px solid #eef0ef;
+}
+
+.courses3 .course-content3 {
+  padding: 15px;
+}
+
+.courses3 .course-content3 h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color:  #D99058;
+}
+
+.courses3 .course-content3 h3:hover {
+  font-weight: 700;
+  font-size: 20px;
+  color:  #308446;
+}
+
+
+.courses3 .course-content3 h3 a {
+  color: #D99058;
+  transition: 0.3s;
+}
+
+.courses3.course-content3 h3 a:hover {
+  color:  #37423b
+}
+
+.courses3 .course-content3 p {
+  font-size: 14px;
+  color: #777777;
+}
+
+.courses3 .course-content3 h4 {
+  font-size: 14px;
+  background:  #D99058;
+  padding: 7px 14px;
+  color: #fff;
+  margin: 0;
+}
+
+.courses3 .course-content3 .price3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #37423b;
+}
+
+.courses3 .trainer3 {
+  padding-top: 15px;
+  border-top: 1px solid #eef0ef;
+}
+
+.courses3 .trainer3 .trainer-profile3 img {
+  max-width: 50px;
+  border-radius: 50px;
+}
+
+.courses3 .trainer3 .trainer-profile3 span {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #657a6d;
+}
+
+.courses3 .trainer3 .trainer-rank3 {
+  font-size: 18px;
+  color: #657a6d;
+}
+
+.separar-foto2{
+  padding: 150px !important;
+  }
+  
+  
+
+
+
+
+
+
 
 
 
@@ -1897,71 +1992,6 @@ iframe{
   }
   
 
-
-  .modalmask {
-    position: fixed;
-    font-family: 'Montserrat', sans-serif !important;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.modalmask:target {
-    opacity:1;
-    pointer-events: auto;
-}
-
-
-.modalbox{
-  width: 500px;
-  position: relative;
-  padding: 5px 20px 13px 20px;
-  background: #fff;
-  border-radius:3px;
-  -webkit-transition: all 500ms ease-in;
-  -moz-transition: all 500ms ease-in;
-  transition: all 500ms ease-in;
-   height: 200px !important;
-}
-
-
-.movedown {
-  margin: 0 auto;
-}
-
-.modalmask:target .movedown{       
-  margin:10% auto;
-}
-
-
-
-.close {
-  background: #D99058;
-  color: white;
-  line-height: 25px;
-  position: absolute;
-  right: 1px;
-  text-align: center;
-  top: 1px;
-  width: 24px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius:3px;
-
-}
-
-.close:hover {
-  background: #308446;
-  color:white;
-}
-
 .boton{
   text-align: center !important;
 margin: 10px !important;
@@ -2054,3 +2084,83 @@ margin: 10px !important;
   color:white;
   text-decoration:none;
   }
+
+
+
+  
+
+  .showLeft{
+      background-color: #0d77b6 !important;
+      border:1px solid #0d77b6 !important;
+      text-shadow: none !important;
+      color:#fff !important;
+      padding:10px;
+  }
+
+  .icons li {
+      background: none repeat scroll 0 0 #fff;
+      height: 7px;
+      width: 7px;
+      line-height: 0;
+      list-style: none outside none;
+      margin-right: 15px;
+      margin-top: 3px;
+      vertical-align: top;
+      border-radius:50%;
+      pointer-events: none;
+  }
+
+  .btn-left {
+      left: 0.4em;
+  }
+
+  .btn-right {
+      right: 0.4em;
+  }
+
+  .btn-left, .btn-right {
+      position: absolute;
+      top: 0.24em;
+  }
+
+  .dropbtn {
+      background-color: #4CAF50;
+      position: fixed;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+      background-color: #3e8e41;
+  }
+
+  .dropdown {
+      position: absolute;
+      display: inline-block;
+      right: 0.4em;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: relative;
+      margin-top: 60px;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  .dropdown a:hover {background-color: #f1f1f1}
+
+  .show {display:block;}
+
