@@ -676,6 +676,9 @@ section {
 .courses .trainer .trainer-profile img {
   max-width: 50px;
   border-radius: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .courses .trainer .trainer-profile span {
@@ -787,7 +790,7 @@ filter: grayscale(100%);
 }
 
 .separar-foto{
-margin-left: 130px !important;
+margin-left: 200px !important;
 }
 
 
@@ -2164,6 +2167,23 @@ margin: 10px !important;
 
   .show {display:block;}
 
-.altura{
-  height: ;
+
+
+.icon{
+margin-left: 320px !important;
+position: absolute;
+color: white !important;
 }
+
+.icon:hover{
+  margin-left: 320px !important;
+  position: absolute;
+  color: #D99058 !important;
+  }
+
+
+  .centrar-icon{
+    text-align: center !important;
+    align-items: center !important;
+  }
+
